@@ -1,0 +1,139 @@
+body {
+    margin: auto;
+    max-width: 55.0rem;
+    background-color: #cacaca;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Part that was highlighted by the user*/
+::selection {
+    color: #084d6e;
+    background: #f48a59;
+}
+
+/* unvisited link */
+a:link {
+    color: #f48a59;
+}
+
+/* visited link */
+a:visited {
+    color: #f05e1b;
+}
+
+/* mouse over link */
+a:hover {
+    color: #f59f75;
+}
+
+/* selected link */
+a:active {
+    color: #f48a59;
+}
+
+.Moone {
+    font-size: 2.1rem;
+    text-align: center;
+}
+
+code {
+    font-size: 1.5625rem;
+    line-height: 1.5;
+    letter-spacing: 0.0625rem;
+    font-family: monospace;
+    color: #666666;
+    text-align: left;
+}
+
+.cursor {
+    -webkit-animation: cursor 1s infinite;
+    animation: cursor 1s infinite;
+}
+
+/* cursor terminal*/
+@keyframes cursor {
+    from {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+/*nav*/
+header {
+    width: 100%;
+}
+
+.menu {
+    background-color: #dedede;
+    text-align: center;
+    border-radius: 35px;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 20px 30px;
+}
+
+/*owo.html*/
+img {
+    height: 200px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pic {
+    text-align: center;
+}
+
+.mypic {
+    border-radius: 50%;
+    border: 0.5px solid #111111;
+}
+
+/*dark scheme*/
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #424242;
+    }
+
+    code {
+        color: #999999;
+    }
+
+    .menu {
+        background-color: #3d3d3d;
+    }
+
+    ::selection {
+        color: #f7b291;
+        background: #063e58;
+    }
+
+    a:active,
+    a:link,
+    a:visited {
+        color: #0a608a;
+    }
+
+    a:hover {
+        color: #0c78ac;
+    }
+}

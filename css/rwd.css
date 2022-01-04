@@ -1,0 +1,33 @@
+@media screen and (max-width: 480px) and (min-width: 360px) {
+    /*nav*/
+    .menu ul li a {
+        display: block;
+        padding: 0.625rem;
+        font-size: 0.9375rem;
+    }
+
+    .menu ul {
+        padding-left: 0rem;
+    }
+
+    body {
+        margin: 0.3125rem;
+        background-color: #353535;
+    }
+
+    .Moone {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    li {
+        font-size: 0.9rem;
+    }
+
+    code {
+        font-size: 1.2rem;
+    }
+}
