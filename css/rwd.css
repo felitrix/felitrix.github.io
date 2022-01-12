@@ -1,13 +1,13 @@
 @media screen and (max-width: 480px) and (min-width: 360px) {
+
     /*nav*/
-    .menu ul li a {
-        display: block;
-        padding: 0.625rem;
-        font-size: 0.9375rem;
+    .cabecalho {
+        padding: 15px;
     }
 
-    .menu ul {
-        padding-left: 0rem;
+    .cabecalho-menu {
+        font-size: 0.9375rem;
+        gap: 25px;
     }
 
     body {
@@ -19,15 +19,19 @@
         font-size: 1.5rem;
     }
 
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
     p {
         font-size: 1rem;
     }
 
     li {
         font-size: 0.9rem;
-    }
-
-    code {
-        font-size: 1.2rem;
     }
 }

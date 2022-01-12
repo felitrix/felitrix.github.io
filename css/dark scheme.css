@@ -1,0 +1,29 @@
+/*dark scheme*/
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #424242;
+    }
+
+    p {
+        color: #999999;
+    }
+
+    .cabecalho {
+        background-color: #3d3d3d;
+    }
+
+    ::selection {
+        color: #f7b291;
+        background: #063e58;
+    }
+
+    a:active,
+    a:link,
+    a:visited {
+        color: #0a608a;
+    }
+
+    a:hover {
+        color: #0c78ac;
+    }
+}
