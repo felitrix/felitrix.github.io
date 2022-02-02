@@ -9,10 +9,12 @@
         font-size: 0.9375rem;
         gap: 25px;
     }
+    .cabecalho-menu-item{
+        font-size: 18px;
+    }
 
     body {
         margin: 0.3125rem;
-        background-color: #353535;
     }
 
     .Moone {

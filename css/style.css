@@ -25,6 +25,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    margin-top: 18px;
     padding: 24px;
     background-color: #dedede;
     text-align: center;
@@ -38,6 +39,7 @@ body {
 
 .cabecalho-menu-item {
     font-family: 'Fira Code', monospace;
+    font-size: 24px;
     font-weight: 500;
 }
 
@@ -90,6 +92,7 @@ h1 {
 h2 {
     font-size: 25px;
     color: #161616;
+    margin-top: 20px;
 }
 
 p {
@@ -99,6 +102,13 @@ p {
     line-height: 1.5;
     color: #666666;
     text-align: left;
+}
+
+.address{
+    margin-top: 14px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.5625rem;
+    line-height: 2;
 }
 
 /* cursor terminal*/
@@ -121,8 +131,13 @@ p {
     }
 }
 
+.cya{
+    color: #161616;
+}
+
 .pic {
     text-align: center;
+    margin-top: 8px;
     padding: 20px;
 }
 
