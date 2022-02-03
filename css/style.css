@@ -90,8 +90,12 @@ h1 {
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 1.5625rem;
     color: #161616;
+    margin-top: 20px;
+}
+
+h3{
     margin-top: 20px;
 }
 
@@ -138,10 +142,10 @@ p {
 .pic {
     text-align: center;
     margin-top: 8px;
-    padding: 20px;
+    padding: 24px;
 }
 
 .mypic {
     border-radius: 50%;
-    height: 200px;
+    height: 214px;
 }
