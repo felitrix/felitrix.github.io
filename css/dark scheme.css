@@ -1,15 +1,27 @@
 /*dark scheme*/
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #424242;
+        background-color: #1e1e1e;
     }
 
+    h1 {
+        color: #808080;
+    }
+    
+    h2 {
+        color: #808080;
+    }
+    
+    h3{
+        color: #7a7a7a;
+    }
+    
     p {
-        color: #999999;
+        color: #666666;
     }
 
     .cabecalho {
-        background-color: #3d3d3d;
+        background-color: #252627;
     }
 
     ::selection {
