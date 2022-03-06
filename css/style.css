@@ -45,28 +45,28 @@ body {
 
 /*Part that was highlighted by the user*/
 ::selection {
-    color: #084d6e;
-    background: #f48a59;
+    color: #04364E;
+    background: #FEAC8E;
 }
 
 /* unvisited link */
 a:link {
-    color: #f48a59;
+    color: #6F3C24;
 }
 
 /* visited link */
 a:visited {
-    color: #f05e1b;
+    color: #812F09;
 }
 
 /* mouse over link */
 a:hover {
-    color: #f59f75;
+    color: #67402D;
 }
 
 /* selected link */
 a:active {
-    color: #f48a59;
+    color: #6F3C24;
 }
 
 .Moone {
@@ -106,7 +106,7 @@ p {
     font-size: 1.5625rem;
     font-weight: 800;
     line-height: 1.5;
-    color: #808080;
+    color: #494949;
     text-align: left;
 }
 
@@ -115,7 +115,7 @@ p {
     font-family: 'Source Code Pro', monospace;
     font-size: 1.5625rem;
     line-height: 2;
-    color: #808080;
+    color: #494949;
 }
 
 /* cursor terminal*/
@@ -139,7 +139,7 @@ p {
 }
 
 .cya{
-    color: #808080;
+    color: #494949;
 }
 
 .pic {

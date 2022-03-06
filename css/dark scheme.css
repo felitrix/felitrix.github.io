@@ -5,19 +5,19 @@
     }
 
     h1 {
-        color: #808080;
+        color: #A8A8A8;
     }
     
     h2 {
-        color: #808080;
+        color: #A8A8A8;
     }
     
     h3{
-        color: #7a7a7a;
+        color: #A8A8A8;
     }
     
     p {
-        color: #666666;
+        color: #A8A8A8;
     }
 
     .cabecalho {
@@ -25,17 +25,17 @@
     }
 
     ::selection {
-        color: #f7b291;
-        background: #063e58;
+        color: #F7B291;
+        background: #032D42;
     }
 
     a:active,
     a:link,
     a:visited {
-        color: #0a608a;
+        color: #1DB2FB;
     }
 
     a:hover {
-        color: #0c78ac;
+        color: #18B2FD;
     }
 }
