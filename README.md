@@ -5,7 +5,7 @@ My personal site, maybe, but I will use to test new things, with only HTML and C
 You can use this project to improve CSS and HTML skills and have fun.
 ## Screenshots
 
-![Site screenshot](https://files.catbox.moe/ymqhe8.png)
+![Site screenshot](https://files.catbox.moe/5hvv10.png)
 
 
 ## Contribute
