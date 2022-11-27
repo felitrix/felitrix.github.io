@@ -1,41 +1,41 @@
 /*dark scheme*/
 @media (prefers-color-scheme: dark) {
-    body {
-        background-color: #1e1e1e;
-    }
+  body {
+    background-color: #1e1e1e;
+  }
 
-    h1 {
-        color: #A8A8A8;
-    }
-    
-    h2 {
-        color: #A8A8A8;
-    }
-    
-    h3{
-        color: #A8A8A8;
-    }
-    
-    p {
-        color: #A8A8A8;
-    }
+  h1 {
+    color: #a8a8a8;
+  }
 
-    .cabecalho {
-        background-color: #252627;
-    }
+  h2 {
+    color: #a8a8a8;
+  }
 
-    ::selection {
-        color: #F7B291;
-        background: #032D42;
-    }
+  h3 {
+    color: #a8a8a8;
+  }
 
-    a:active,
-    a:link,
-    a:visited {
-        color: #1DB2FB;
-    }
+  p {
+    color: #a8a8a8;
+  }
 
-    a:hover {
-        color: #18B2FD;
-    }
+  .cabecalho {
+    background-color: #252627;
+  }
+
+  ::selection {
+    color: #f7b291;
+    background: #032d42;
+  }
+
+  a:active,
+  a:link,
+  a:visited {
+    color: #1db2fb;
+  }
+
+  a:hover {
+    color: #18b2fd;
+  }
 }

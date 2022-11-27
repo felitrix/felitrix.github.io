@@ -1,39 +1,38 @@
 @media screen and (max-width: 480px) and (min-width: 360px) {
+  /*nav*/
+  .cabecalho {
+    padding: 15px;
+  }
 
-    /*nav*/
-    .cabecalho {
-        padding: 15px;
-    }
+  .cabecalho-menu {
+    font-size: 0.9375rem;
+    gap: 25px;
+  }
+  .cabecalho-menu-item {
+    font-size: 18px;
+  }
 
-    .cabecalho-menu {
-        font-size: 0.9375rem;
-        gap: 25px;
-    }
-    .cabecalho-menu-item{
-        font-size: 18px;
-    }
+  body {
+    margin: 0.3125rem;
+  }
 
-    body {
-        margin: 0.3125rem;
-    }
+  .Moone {
+    font-size: 1.5rem;
+  }
 
-    .Moone {
-        font-size: 1.5rem;
-    }
+  h1 {
+    font-size: 25px;
+  }
 
-    h1 {
-        font-size: 25px;
-    }
-    
-    h2 {
-        font-size: 20px;
-    }
+  h2 {
+    font-size: 20px;
+  }
 
-    p {
-        font-size: 1rem;
-    }
+  p {
+    font-size: 1rem;
+  }
 
-    li {
-        font-size: 0.9rem;
-    }
+  li {
+    font-size: 0.9rem;
+  }
 }
