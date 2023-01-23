@@ -38,4 +38,21 @@
   a:hover {
     color: #18b2fd;
   }
+
+  .address {
+    color: #a8a8a8;
+  }
+
+  .cya {
+    color: #a8a8a8;
+  }
+
+  .rodape {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .rodape a {
+    color: #fff;
+  }
 }

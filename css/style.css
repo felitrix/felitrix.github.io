@@ -127,7 +127,7 @@ p {
   font-family: "Source Code Pro", monospace;
   font-size: 1.5625rem;
   line-height: 2;
-  color: #a8a8a8;
+  color: #494949;
 }
 
 /* cursor terminal*/
@@ -151,7 +151,7 @@ p {
 }
 
 .cya {
-  color: #a8a8a8;
+  color: #494949;
 }
 
 .pic {
@@ -167,8 +167,7 @@ p {
 
 /* Footer Styling */
 .rodape {
-  background-color: #333;
-  color: #fff;
+  background-color: #bfbfbf;
   text-align: center;
   padding: 1rem;
   position: fixed;
@@ -185,6 +184,5 @@ p {
 }
 
 .rodape a {
-  color: #fff;
   margin: auto;
 }
