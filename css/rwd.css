@@ -1,4 +1,11 @@
 @media screen and (max-width: 480px) and (min-width: 360px) {
+  body{
+    margin-bottom: 80px; /* altura do footer */
+  }
+
+  .container {
+    width: 92%;
+  }
   /*nav*/
   .cabecalho {
     padding: 15px;
@@ -6,18 +13,14 @@
 
   .cabecalho-menu {
     font-size: 0.9375rem;
-    gap: 25px;
+    gap: 15%;
   }
   .cabecalho-menu-item {
     font-size: 18px;
   }
 
-  body {
-    margin: 0.3125rem;
-  }
-
   .Moone {
-    font-size: 1.5rem;
+    font-size: 24px;
   }
 
   h1 {
@@ -29,10 +32,56 @@
   }
 
   p {
-    font-size: 1rem;
+    font-size: 18px;
   }
 
   li {
-    font-size: 0.9rem;
+    font-size: 16px;
+  }
+
+  /* Footer Styling */
+
+.rodape p {
+  font-size: 14px;
+  font-weight: 800;
+}
+}
+
+/* Media query para tablets */
+@media only screen and (min-width: 48rem) and (max-width: 64rem) {
+  /*nav*/
+  body{
+    margin-bottom: 60px; /* altura do footer */
+  }
+
+  .container {
+    width: 95%;
+  }
+  .cabecalho {
+    padding: .9375rem;
+  }
+
+  .cabecalho-menu-item {
+    font-size: 1.375rem;
+  }
+
+  .Moone {
+    font-size: 1.75rem;
+  }
+
+  h1 {
+    font-size: 1.625rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1.375rem;
+  }
+
+  li {
+    font-size: 1.375rem;
   }
 }
