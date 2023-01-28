@@ -96,17 +96,12 @@ h6 {
 }
 
 h1 {
-  font-size: 30px;
-  color: #1f1f1f;
-}
-
-h2 {
   font-size: 1.5625rem;
   color: #1f1f1f;
   margin-top: 20px;
 }
 
-h3 {
+h2 {
   margin-top: 20px;
   color: #1f1f1f;
   margin-bottom: 20px;
