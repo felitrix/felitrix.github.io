@@ -1,6 +1,6 @@
-@media screen and (max-width: 480px) and (min-width: 360px) {
+@media screen and (max-width: 30rem) and (min-width: 22.5rem) {
   body{
-    margin-bottom: 80px; /* altura do footer */
+    margin-bottom: 5rem; /* altura do footer */
   }
 
   .container {
@@ -8,69 +8,23 @@
   }
   /*nav*/
   .cabecalho {
-    padding: 15px;
+    padding: 1rem;
   }
 
   .cabecalho-menu {
-    font-size: 0.9375rem;
+    font-size: 15px;
     gap: 15%;
   }
   .cabecalho-menu-item {
-    font-size: 18px;
+    font-size: 1rem;
   }
 
   .Moone {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
 
   h1 {
-    font-size: 25px;
-  }
-
-  h2 {
-    font-size: 20px;
-  }
-
-  p {
-    font-size: 18px;
-  }
-
-  li {
-    font-size: 16px;
-  }
-
-  /* Footer Styling */
-
-.rodape p {
-  font-size: 14px;
-  font-weight: 800;
-}
-}
-
-/* Media query para tablets */
-@media only screen and (min-width: 48rem) and (max-width: 64rem) {
-  /*nav*/
-  body{
-    margin-bottom: 60px; /* altura do footer */
-  }
-
-  .container {
-    width: 95%;
-  }
-  .cabecalho {
-    padding: .9375rem;
-  }
-
-  .cabecalho-menu-item {
-    font-size: 1.375rem;
-  }
-
-  .Moone {
-    font-size: 1.75rem;
-  }
-
-  h1 {
-    font-size: 1.625rem;
+    font-size: 1.5rem;
   }
 
   h2 {
@@ -78,10 +32,56 @@
   }
 
   p {
-    font-size: 1.375rem;
+    font-size: 1rem;
   }
 
   li {
-    font-size: 1.375rem;
+    font-size: 1rem;
+  }
+
+  /* Footer Styling */
+
+.rodape p {
+  font-size: .875rem;
+  font-weight: 800;
+}
+}
+
+/* Media query para tablets */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /*nav*/
+  body{
+    margin-bottom: 3.75rem; /* altura do footer */
+  }
+
+  .container {
+    width: 95%;
+  }
+  .cabecalho {
+    padding: 1rem;
+  }
+
+  .cabecalho-menu-item {
+    font-size: 1.5rem;
+  }
+
+  .Moone {
+    font-size: 2rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  li {
+    font-size: 1.5rem;
   }
 }

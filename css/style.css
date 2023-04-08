@@ -32,11 +32,11 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  margin-top: 18px;
+  margin-top: 16px;
   padding: 24px;
   background-color: #bfbfbf;
   text-align: center;
-  border-radius: 35px;
+  border-radius: 32px;
 }
 
 .cabecalho-menu {
@@ -96,21 +96,21 @@ h6 {
 }
 
 h1 {
-  font-size: 1.5625rem;
+  font-size: 1.5rem;
   color: #1f1f1f;
   margin-top: 20px;
 }
 
 h2 {
-  margin-top: 20px;
+  margin-top: 1.5rem;
   color: #1f1f1f;
-  margin-bottom: 20px;
+  margin-bottom: 1.5rem;
 }
 
 p {
   font-family: "Source Code Pro", monospace;
   margin: 3% 0;
-  font-size: 1.5625rem;
+  font-size: 1.5rem;
   font-weight: 800;
   line-height: 1.5;
   color: #494949;
@@ -118,9 +118,9 @@ p {
 }
 
 .address {
-  margin-top: 14px;
+  margin-top: 1rem;
   font-family: "Source Code Pro", monospace;
-  font-size: 1.5625rem;
+  font-size: 1.5rem;
   line-height: 2;
   color: #494949;
 }
@@ -157,7 +157,7 @@ p {
 
 .mypic {
   border-radius: 50%;
-  height: 214px;
+  height: 13.5rem;
 }
 
 /* Footer Styling */
@@ -173,7 +173,7 @@ p {
 }
 
 .rodape p {
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 800;
   margin: auto;
 }
