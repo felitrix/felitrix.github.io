@@ -1,14 +1,17 @@
-# felitrix.github.io
+# Felipe Koji Nakamura — site pessoal
 
-My personal site, maybe, but I will use to test new things, with only HTML and CSS pure
+Portfólio pessoal de Felipe Koji Nakamura, publicado no GitHub Pages.
 
-You can use this project to improve CSS and HTML skills and have fun.
-In the future, I will rebuild this page using Tailwindcss and GSAP.
-## Screenshots
+O site apresenta sua trajetória entre automação industrial, mecatrônica, manufatura aditiva, operações e negócios, com a NeoVale 3D como projeto principal.
 
-![Site screenshot](https://files.catbox.moe/5hvv10.png)
+## Tecnologias
 
+- HTML semântico
+- CSS responsivo
+- Dados estruturados Schema.org
+- Open Graph e Twitter Cards
+- Sitemap e robots.txt
 
-## Contribute
+## Desenvolvimento local
 
-Contributions are always welcome! ❤️
+Por ser um site estático, basta servir a pasta raiz com qualquer servidor HTTP local.
